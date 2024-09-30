@@ -3,18 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "Ajith008"
+  title: "Ajith Raju Aumbati"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      
+    
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
+    mainfont: arial
+    fontsize: 1.5rem
+    fontcolor: "#0013d5"
+    linkcolor: "#ff33f0"
+    monofint: courier view
     css: styles.css
-    toc: true
+
 
 
 
