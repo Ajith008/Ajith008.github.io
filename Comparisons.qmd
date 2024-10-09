@@ -1,0 +1,124 @@
+---
+title: "Comparison of Original and Re-designed Visualizations: Addressing Drawbacks for Improved Clarity"
+format: html
+editor: visual
+---
+
+### Original Visualization-1 {alt="Original Visualization" width="559"}
+
+![Original Visualization](docs/Original-pic.jpg){width="559"}
+
+![Original Visualization](docs/Original-pic.jpg){width="559"}
+
+**The current visualization's has following shortcomings: \[2\]**
+
+![](docs/Original-pic.jpg){width="559"}
+
+\
+**1. Overlapping of Competitor Data:** When one or two competitors dominate (e.g., Joey Chestnut), insights are unclear when all competitors' results are crowded onto a single plot in the original chart. It becomes difficult to distinguish between competitors who consume fewer hot dogs.
+
+**2. ImproperGender Segmentation:** Male and female rivals are not properly separated in the original chart. We can see that the  performances of the male and female competitors are inconsistent, which makes it challenging to identify patterns for the female competitors.
+
+**3. Clutter in the Early Years:** A general line still reveals little rivalry, but there is an excessive amount of unclear data from the 1980s and 1990s because there aren't enough precise records. This is not very helpful and is confusing.
+
+**4.Limited Information on Female rivals:** Although Miki Sudo is singled out, there's no information regarding the overall advancement of female rivals over time.
+
+### **1.Improved Visualization-1**:
+
+![Redesigned Visualization](docs/RE-1.png){width="503"}
+
+**Facet wrapping by gender**
+
+# 
+
+**1. Faceted Line Plot by Gender and Competitor**
+
+This plot addresses the clutter in the original graph by separating trends for male and female competitors while still showing the individual performances of key competitors (Joey Chestnut, Kobayashi, Miki Sudo, etc.). **Explanation:**
+
+-   **Faceting by gender** allows clear comparison between male and female competitors without cluttering the main plot.
+
+-   **Free y-scales** for each gender ensure that the scale adapts to the data range of male and female competitors.
+
+-   Important milestones for each competitor are labeled with their maximum achievements.
+
+-   This visualization makes it easier to track both the dominance of Joey Chestnut and Miki Sudo, while showing how other competitors have performed in comparison.
+
+    ### 2.Improved Visualization-2
+
+    ![](docs/re-2.png){width="531"}
+
+    **Stacked Area Plot (Cumulative Trends for Competitors Over Time)**
+
+    A stacked area map illustrates how the overall quantity of hot dogs consumed has increased over time, giving a visual depiction of cumulative performance. The contributions of each rival are displayed as discrete areas, highlighting periods of dominance.
+
+-   **Justification:**
+
+-   • Stacked area charts illustrate the annual growth in the overall number of hot dogs consumed by rivals.• The contributions of each contestant are distinguished by color, making it possible for you to see how many hot dogs each competitor has consumed overall.\
+    \
+    Joey Chestnut's domination over the years and the other competitors' contributions to the overall performance become evident.
+
+    ### **Why These Two Visualizations?**
+
+**1. Faceted Line Plot:**
+
+-   This representation clearly separates male and female rivals, making it easy to analyze trends without overlap.The unconstrained y-axis eliminates distortions between male and female performance, allowing for more equitable comparisons.
+
+-   Joey Chestnut and Miki Sudo clearly dominate their respective categories.
+
+**2.Stacked Area Plot:**
+
+-   The stacked area plot shows the cumulative growth of competitive eating performances over time, highlighting individual competitors' contributions to overall totals.
+
+-   It's an intuitive way to show how much each competitor has "dominated" certain years relative to others.
+
+-   Area proportions highlight noteworthy trends, such as top performers Joey Chestnut or Kobayashi, or Miki Sudo's performance compared to other female rivals.
+
+These two forms of visualization not only preserve the original data but also facilitate the analysis of gender-specific patterns, competitor dominance, and overall competitive performance advancement over time. Please let me know if you have any suggestions for improving these visualizations or if you require any additional information about implementation.
+
+------------------------------------------------------------------------
+
+### Original Visualization-2
+
+![Original Visualization](docs/original_visual.jpg){width="394"}
+
+***Problems in the graph: \[1\]***
+
+Source: <https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html>
+
+This visual drew me in with its spiral design. However, after examining it, I found it challenging to draw any meaningful conclusions. While it was intriguing, it ultimately misrepresented the data, making it difficult to interpret. Here are several issues with the representation:
+
+1.     *Time Should Be a Linear Representation:* Time is plotted in linear scale, but in this visual, the designer opted for a spiral layout. This choice represents as a bad visual representation, as time is generally easier to follow in a straight line.
+
+2.     *No Base Axis (0):* The visual lacks a clear base axis or "0" point, resulting in values displayed above and below the axis. This can confuse viewers about whether the data indicates positive or negative values. Having values on both sides of the visual contributes to misrepresentation.
+
+3.     *Radial Rather Than Circular:* The visual appears radial rather than circular, with the spiral tilting at an angle. It’s unclear what this design choice represents, potentially suggesting skewness but failing to make this intention clear.
+
+4.     *X-Axis Unit Is Not Indicated:* The X-axis lacks a unit label, making it challenging to interpret the data accurately.
+
+5.     *Lack of Clarity:* This visual lacks overall clarity in it as we do not understand the aim of it.
+
+Through the below visualization, I have attempted to provide better visuals for easy and proper understanding
+
+### **Visualization-1:**
+
+This visual aim to illustrate the 7-day average of COVID-19 cases in the United States, covering the period from the start of the pandemic through the end of 2021. It seeks to offer a simplistic yet informative comparison of cases between 2020 and 2021. The visual utilizes two smooth line graphs that provide a continuous plot of the values, making it easier to understand trends over time. It clearly defines the cases by plotting only positive axes with clear axis values.
+
+![Visualization 1](docs/Visual-1.jpeg)
+
+### Visualization-2
+
+![](docs/Visual-2.jpeg)
+
+Visual 2:
+
+This visual intends to provide the viewer with monthly values of cases of COVID. This a discrete plot which is not continuous yet provide and clear picture on the trends of the pandemic. I aimed to make the comparison between 2020 and 2021 easier by grouping and placing them together for easy analysis and understanding.
+
+### **REFERENCES**
+
+1\. **New York Times Article**:
+
+**Citation**: Z. Binney, "Omicron Is Our Past Pandemic Mistakes on Fast-Forward," *The New York Times*, Jan. 06, 2022. \[Online\]. Available: <https://www.nytimes.com/2022/01/06/opinion/omicron-covid-us.html>. \[Accessed: Oct. 06, 2024\].
+
+2\. **Junk Charts Blog Post**:
+
+**Citation**: K. Fung, "Graphics that stretch stomachs and make merry," *Junk Charts*, Jul. 2023. \[Online\]. Available: <https://junkcharts.typepad.com/junk_charts/2023/07/graphics-that-stretch-stomachs-and-make-merry.html>. \[Accessed: Oct. 06, 2024\].
