@@ -11,5 +11,5 @@ format: html
 Welcome to the mid-project page. Here, you will find the following:
 
 1. ["Comparison of Original and Re-designed Visualizations: Addressing Drawbacks for Improved Clarity"](Comparisons.html)
-2. [Code for the re-designed versions of visualizations](Code-for-re-designed-visualization-s.html)
+
 ---
