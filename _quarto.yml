@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Ajith and Saranya-grp4"
+  title: "Ajith Raju"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - Mid-project.qmd
+      - Code-final.qmd
       
     
 
